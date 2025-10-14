@@ -12,7 +12,7 @@ const MIDDLEPART = 5
 const PLAYER1 = 0
 const PLAYER2 = 1
 
-const MAXSCORE = 5
+const MAXSCORE = 3
 
 const randomNumber = Math.random()
 

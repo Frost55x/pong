@@ -25,6 +25,8 @@ class Pong {
         const canvas = document.getElementById("pong")
         this.ctx = canvas.getContext("2d")
 
+        this.ctx.scale(2, 2)
+
         this.ctx.textAlign = "center"
         this.ctx.textBaseline = "middle"
         this.ctx.font = "48px serif"

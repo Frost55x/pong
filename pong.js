@@ -25,7 +25,7 @@ class Pong {
         const canvas = document.getElementById("pong")
         this.ctx = canvas.getContext("2d")
 
-        this.ctx.scale(2, 1)
+        this.ctx.scale(1.5, 1.5)
 
         this.ctx.textAlign = "center"
         this.ctx.textBaseline = "middle"
